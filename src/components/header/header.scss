@@ -1,0 +1,20 @@
+@import "../../styles/_colors";
+.header-section {
+  background-color: $primary-color;
+  padding: 1.7rem 1rem;
+  max-height: 74px;
+  color: $contrasted-primary-text;
+  font-size: 16px;
+  .actions {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    img {
+      width: 26px;
+      cursor: pointer;
+    }
+  }
+  p {
+    margin: 0;
+  }
+}

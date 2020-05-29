@@ -1,0 +1,17 @@
+@import "../../styles/_colors";
+.min__header {
+  background-color: $secondary-color;
+  color: $contrasting-accent-text-color;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.55rem;
+  max-height: 74px;
+  p {
+    margin: 0;
+  }
+  img {
+    width: 30px;
+  }
+}
