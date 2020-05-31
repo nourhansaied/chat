@@ -8,6 +8,11 @@
   justify-content: space-between;
   padding: 1.55rem;
   max-height: 74px;
+  position: fixed;
+  width: 19.3%;
+  & + .media {
+    margin-top: 74px;
+  }
   p {
     margin: 0;
   }

@@ -3,7 +3,7 @@ import "./chat-list.scss";
 import PreviewConversationItem from "../../components/preview-conversation-chat/preview-conversation-chat";
 const data = [
   {
-    img: "../../images/sk.png",
+    conImg: "3.png",
     name: "Mom’s Discharge Plan",
     nickname: "Karen Becker",
     descript: "Sed mollis mi iaculis tincidu...",
@@ -18,6 +18,7 @@ const data = [
   {
     // img: "sk.png",
     name: "asdas",
+    nickname: "tested Becker",
     descript: "asdasd",
   },
   {
@@ -31,8 +32,17 @@ const data = [
 const ChatList = (prop) => {
   return (
     <>
-      {data.map((item) => {
-        return <PreviewConversationItem name={item.name} />;
+      {data.map((item, i) => {
+        return (
+          <PreviewConversationItem
+            key={i}
+            name={item.name}
+            descript={item.descript}
+            nickname={item.nickname}
+            convImg={item.conImg}
+            notify={item.notify}
+          />
+        );
       })}
     </>
   );

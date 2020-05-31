@@ -1,0 +1,29 @@
+.title {
+  font-size: 15px;
+  color: #666666;
+}
+.sub_title {
+  font-size: 12px;
+  color: #666666;
+  font-style: italic;
+}
+.desc {
+  font-size: 12px;
+  color: #4d4d4d;
+}
+.notifications {
+}
+.media {
+  padding: 2rem 1rem;
+  background-color: white;
+  border-bottom: 1px solid #546566;
+  &:first-child {
+    margin-top: 75px;
+  }
+  p {
+    margin: 0;
+  }
+  &.active {
+    background-color: #ecf2f2;
+  }
+}

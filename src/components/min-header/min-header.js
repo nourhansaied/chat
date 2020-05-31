@@ -4,7 +4,10 @@ const MinHeader = () => {
   return (
     <div className="min__header">
       <p>Conversations</p>
-      <img src={require("../../images/new_conversation.png")} />
+      <img
+        src={require("../../images/new_conversation.png")}
+        alt="new_conversation"
+      />
     </div>
   );
 };

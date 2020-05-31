@@ -3,9 +3,13 @@
 }
 .aside {
   width: 7%;
+  background-color: #5cafb5;
 }
 .conversations {
   width: 30%;
+  height: 80vh;
+  overflow: scroll;
+  position: relative;
 }
 .conversation__data {
   width: 60%;
