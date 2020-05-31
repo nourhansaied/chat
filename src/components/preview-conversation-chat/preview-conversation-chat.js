@@ -6,19 +6,13 @@ import "./preview-conversation-chat.scss";
 const PreviewConversationItem = (props) => {
   return (
     <Media>
-      {/* <img
+      <img
         width={64}
         height={64}
         className="mr-3"
         alt="jkh"
-        src={require("../../images/${props.convImg}")}
-      /> */}
-      <div
-        className="bgImg"
-        style={{
-          background: `center / cover no-repeat url('../../images/${props.convImg}') `,
-        }}
-      ></div>
+        src={props.convImg}
+      />
 
       <Media.Body>
         <h5 className="title">{props.name}</h5>

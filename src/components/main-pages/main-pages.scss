@@ -10,7 +10,10 @@
     align-items: center;
     img {
       padding: 0.75rem 0;
-      cursor: pointer;
+
+      &.img__size {
+        max-width: 30px;
+      }
     }
   }
 }
