@@ -5,9 +5,9 @@ const HeaderComponent = (props) => {
     <div className="header-section d-flex justify-content-between align-items-center">
       <p>Mom’s Discharge Plan</p>
       <div className="actions">
-        <img src={require("../../images/group.png")} alt="" />
-        <img src={require("../../images/filter.png")} alt="" />
-        <img src={require("../../images/search.png")} alt="" />
+        <img src={"/group.png"} alt="" />
+        <img src={"/filter.png"} alt="" />
+        <img src={"/search.png"} alt="" />
       </div>
     </div>
   );

@@ -17,7 +17,7 @@ const MainPage = () => {
             <ChatList />
           </div>
           <div className="conversation__data">
-            <HeaderComponent />;
+            <HeaderComponent />
           </div>
         </div>
       </div>

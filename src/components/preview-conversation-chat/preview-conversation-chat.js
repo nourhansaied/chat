@@ -7,9 +7,9 @@ const PreviewConversationItem = (props) => {
   return (
     <Media>
       <img
-        width={64}
-        height={64}
-        className="mr-3"
+        width={45}
+        height={45}
+        className="mr-3 image__chat"
         alt="jkh"
         src={props.convImg}
       />

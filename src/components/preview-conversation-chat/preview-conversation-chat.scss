@@ -17,8 +17,12 @@
   padding: 1.8rem 1rem;
   background-color: white;
   border-bottom: 1px solid #546566;
+  cursor: pointer;
   &:first-child {
     margin-top: 75px;
+  }
+  &:hover {
+    background-color: #ecf2f2;
   }
   p {
     margin: 0;
@@ -26,4 +30,8 @@
   &.active {
     background-color: #ecf2f2;
   }
+}
+.image__chat {
+  border: 2px solid #608a8b;
+  border-radius: 50%;
 }
