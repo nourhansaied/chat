@@ -47,7 +47,7 @@ const Converstion = (props) => {
             </div>
           </div>
         </div>
-        <div className="message__conainer">
+        <div className="message__conainer handle__spaces">
           <div className="row reciever">
             <div className="recieve">
               <p className="recieve__title bold">Chest Pain</p>
@@ -58,17 +58,23 @@ const Converstion = (props) => {
                   <p>kbecker@gmail.com completed - THU Oct 11 3:29 PM</p>
                 </div>
               </div>
-
               <p>
                 <img src="/sad_img.png" alt="sad invalid name" />
                 <div className="serve">
                   <p>Severe</p>
                   <p>
-                    <img src="/history.png" alt="history" />
+                    <img className="bold" src="/history.png" alt="history" />
                     <span className="bold">View History</span>
                   </p>
                 </div>
               </p>
+            </div>
+            <div className="info reciver">
+              <p className="sender_info">
+                <img src="/download.png" alt="sender" />
+                <span>me</span>
+              </p>
+              <p>12:20p</p>
             </div>
           </div>
         </div>
