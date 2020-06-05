@@ -1,6 +1,12 @@
 .title {
   font-size: 15px;
   color: #666666;
+  display: flex;
+  justify-content: space-between;
+  span {
+    font-size: 11px;
+    color: #666;
+  }
 }
 .sub_title {
   font-size: 12px;
@@ -14,9 +20,9 @@
 .notifications {
 }
 .media {
-  padding: 1.8rem 1rem;
+  padding: 1.2rem 1rem;
   background-color: white;
-  border-bottom: 1px solid #546566;
+  border-bottom: 1px solid rgba(236, 242, 242, 0.8);
   cursor: pointer;
   &:hover {
     background-color: #ecf2f2;
@@ -31,4 +37,17 @@
 .image__chat {
   border: 2px solid #608a8b;
   border-radius: 50%;
+}
+.notify_data {
+  width: 36px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #608a8b;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
 }

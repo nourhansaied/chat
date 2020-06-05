@@ -15,9 +15,20 @@ const PreviewConversationItem = (props) => {
       />
 
       <Media.Body>
-        <h5 className="title">{props.name}</h5>
+        <h5 className="title">
+          {props.name} <span>{props.date}</span>
+        </h5>
+
         {props.nickname ? <p className="sub_title">{props.nickname}</p> : null}
-        <p className="desc">{props.descript}</p>
+
+        <p className="desc">
+          {props.descript}
+          {props.notify ? (
+            <div className="notify_data">
+              <p className="notify">{props.notify}</p>
+            </div>
+          ) : null}
+        </p>
       </Media.Body>
     </Media>
   );

@@ -3,7 +3,7 @@
   background-color: $primary-color;
   padding: 1.7rem 1rem;
   max-height: 74px;
-  color: $contrasted-primary-text;
+
   font-size: 16px;
   .actions {
     width: 15%;
@@ -16,5 +16,7 @@
   }
   p {
     margin: 0;
+    color: $contrasted-primary-text;
+    font-size: 16px;
   }
 }

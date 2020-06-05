@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Gotham Medium";
+  font-style: Medium;
+  font-weight: 500;
+  src: url("./fonts/GothamMedium.woff"); /* IE9 Compat Modes */
+  src: local("Gotham Medium"), local("GothamMedium"),
+    url("fonts/GothamMedium.woff2") format("woff2"),
+    url("fonts/GothamMedium.woff") format("woff"); /* Modern Browsers */
+}

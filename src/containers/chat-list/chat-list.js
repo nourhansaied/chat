@@ -14,18 +14,21 @@ const data = [
     nickname: "Karen Becker",
     descript: "Sed mollis mi iaculis tincidu...",
     notify: 2,
+    date: "Oct 12",
   },
   {
     conImg: "sk.png",
     name: "asdas",
     nickname: "tested Becker",
     descript: "asdasd",
+    date: "Oct 19",
   },
   {
     conImg: "sk.png",
     name: "Stephanie Kim",
     nickname: "asdasd",
     descript: "asdasd",
+    date: "Oct 1",
   },
   {
     conImg: "sk.png",
@@ -91,6 +94,7 @@ const ChatList = (prop) => {
             nickname={item.nickname}
             convImg={item.conImg}
             notify={item.notify}
+            date={item.date}
           />
         );
       })}

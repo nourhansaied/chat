@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 75vh;
+  height: 100%;
+  padding-top: 1.5rem;
   .actions {
     display: flex;
     flex-direction: column;
@@ -16,4 +17,8 @@
       }
     }
   }
+}
+.logo {
+  position: absolute;
+  bottom: 5rem;
 }

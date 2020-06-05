@@ -9,7 +9,7 @@ const MainPages = () => {
         <img className="img__size" src={"/profile.png"} alt="" />
         <img className="img__size" src={"/cog.png"} alt="" />
       </div>
-      <div className="d-flex align-content-center justify-content-center">
+      <div className="d-flex align-content-center justify-content-center logo">
         <img src={"/logout.png"} alt="" />
       </div>
     </div>
